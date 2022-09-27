@@ -1,0 +1,115 @@
+.bargraph {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+
+}
+
+.bargraph_title{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bargraph_graph ul {
+    display: flex;
+    flex-direction: row;
+    padding:0%;
+    margin:0%;
+    list-style-type: none;
+    
+
+}
+
+.bargraph_graph li{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-right: 40%;
+    margin-bottom: 30%;
+}
+
+
+.bargraph_graph_bluetitle {
+    margin-right: 5%;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    margin-bottom: -150%;
+    padding-top: 25px;
+   
+}
+
+.bargraph_graph_greentitle {
+    color: green;
+    margin-bottom: -150%;
+    padding-top: 100px;
+}
+
+.bargraph_graph_orangetitle {
+    color: orange;
+    margin-bottom: -150%;
+    padding-top: 25px;
+}
+
+.bargraph_title_1,
+.bargraph_title label {
+    justify-content: space-between;
+    
+}
+
+.bargraph_title label {
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 90%;
+
+
+
+}
+
+.bargraph_title_1 {
+    margin-right: 80%;
+
+}
+
+.bargraph_graph_blue{
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-top: 10px;
+    color: red;
+    height: 25vh;
+    width: 4vh;
+    background-color: blue;
+
+}
+
+.bargraph_graph_green{
+
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-bottom: -90px;
+    color: blue;
+    height: 15vh;
+    width: 4vh;
+    background-color: green;
+
+}
+
+
+.bargraph_graph_orange{
+
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-bottom: -90px;
+    color: green;
+    height: 30vh;
+    width: 4vh;
+    background-color: orange;
+
+}

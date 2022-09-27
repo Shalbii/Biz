@@ -1,0 +1,58 @@
+.List {
+
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+
+.List_r1 {
+    display: flex;
+    flex-direction: row;
+
+}
+.icon{
+    margin-left: 25%;
+    
+
+}
+
+.List_r1_a {
+
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    background-color: white;
+}
+
+.List_r1_a_circle {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid gray;
+    color: gray;
+    width: 30px;
+    height: 30px;
+}
+
+.List_r1_a_circle label {
+    margin-right: 50%;
+    color: blueviolet;
+}
+.List_r1_a button{
+    color: gray;
+    background-color:white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.List_r1_a_circle_icon {
+    padding-left: 5px;
+}
+.label{
+    color: gray;
+    margin-right: 15%;
+    margin-left :5px;
+}
