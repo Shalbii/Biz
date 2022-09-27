@@ -2,6 +2,9 @@ import { useState } from "react";
 import React from "react";
 import "./style/modal.css";
 export default function Page() {
+
+
+    
     const [show, setShow] = useState(false);
     const handleClick = () => {
         setShow(!show);

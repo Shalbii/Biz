@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-//import Navigation from './Navigation';
+import Navigation from './Navigation';
 //import Login from './components/List';
 //import Array from './Array';
-import Dgraph from './Dgraph';
+//import Dgraph from './Dgraph';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Dgraph/>
+    <Navigation/>
   </React.StrictMode>
 );
 
