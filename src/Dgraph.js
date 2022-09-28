@@ -26,7 +26,7 @@ export const data = {
                 'black','black',
                 'black',
             ],
-            borderWidth: 1,
+            borderWidth: 0.8,
         },
     ],
 };
@@ -48,7 +48,7 @@ export default function Dgraph() {
 
             <div>
                 <Doughnut
-                    options={{ plugins: { legend: { display: false } } }}
+                    options={{ plugins: { legend: { display: true } } }}
                     data={data}
                 ></Doughnut>
             </div>

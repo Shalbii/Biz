@@ -1,5 +1,5 @@
 import React from "react";
-import "./list.css";
+import "./List.css";
 import { BiDotsVerticalRounded } from 'react-icons/bi';
 import { BsBellFill } from 'react-icons/bs';
 export default function List() {

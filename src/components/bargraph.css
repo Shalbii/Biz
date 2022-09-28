@@ -2,27 +2,23 @@
     display: flex;
     flex-direction: column;
     padding: 50px;
-
-
 }
 
-.bargraph_title{
+.bargraph_title {
     display: flex;
     flex-direction: row;
 }
-
 
 .bargraph_graph ul {
     display: flex;
     flex-direction: row;
-    padding:0%;
-    margin:0%;
+    padding: 0%;
+    margin: 0%;
     list-style-type: none;
-    
 
 }
 
-.bargraph_graph li{
+.bargraph_graph li {
 
     display: flex;
     flex-direction: column;
@@ -42,7 +38,7 @@
     height: 20vh;
     margin-bottom: -150%;
     padding-top: 25px;
-   
+
 }
 
 .bargraph_graph_greentitle {
@@ -60,7 +56,7 @@
 .bargraph_title_1,
 .bargraph_title label {
     justify-content: space-between;
-    
+
 }
 
 .bargraph_title label {
@@ -68,9 +64,6 @@
     display: flex;
     flex-direction: column;
     margin-right: 90%;
-
-
-
 }
 
 .bargraph_title_1 {
@@ -78,7 +71,7 @@
 
 }
 
-.bargraph_graph_blue{
+.bargraph_graph_blue {
     justify-content: space-between;
     margin-right: 20%;
     margin-top: 10px;
@@ -89,7 +82,7 @@
 
 }
 
-.bargraph_graph_green{
+.bargraph_graph_green {
 
     justify-content: space-between;
     margin-right: 20%;
@@ -102,7 +95,7 @@
 }
 
 
-.bargraph_graph_orange{
+.bargraph_graph_orange {
 
     justify-content: space-between;
     margin-right: 20%;

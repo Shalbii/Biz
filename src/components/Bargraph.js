@@ -1,5 +1,5 @@
 import React from "react";
-import "./bargraph.css";
+import "./Bargraph.css";
 
 import { BiDotsVerticalRounded } from 'react-icons/bi';
 export default function Bargraph() {
