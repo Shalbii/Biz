@@ -1,26 +1,94 @@
-.topbar {
-
+.topbar{
+    background-color: #F7F8FA;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topbar_col1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #4D5E80;
+    
+    font-weight: bold;
+}
+.topbar_col1_circle{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    background-color: white;
-    justify-content: space-between;
-    color: lightslategray;
-    padding: 10px 5% 10px 5px;
+    justify-content: center;
+    margin-right: 10px;
 }
-
-.topbar ul {
+.topbar_col1_circle_icon{
+    color: gray;
+}
+ 
+/***************topbar_col1**************/
+ 
+/****************topbar_col2*************/
+.topbar_col2{
     display: flex;
-    padding: 3;
-    margin: 3;
+    align-items: center;
 }
-
-.topbar li {
+.topbar_col2 ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
-    padding-right: 10px;
+ 
+}
+.topbar_col2 li{  
+    padding-right: 20px;
+}
+ 
+/**************end of col2***********/
+/*************start of col3 ***********/
+.topbar_col3{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.topbar_col3 input{
+   border: none;
+   outline: none;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+ 
+ 
+
+.topbar_col4{
+    display: flex;
+    align-items: center;
 }
 
-.topbar_circle {
+
+.Leftbar{
+    min-height: 100vh;
+padding-left: 5px; 
+background-color: lightgray;
+padding-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: left;
+width: 60px;
+margin-right: 10%;
+
+    }
+
+.Leftbar_circle{
+
     min-width: 50px;
     max-width: 50px;
     display: flex;
@@ -28,73 +96,73 @@
     margin-bottom: 10px;
     justify-content: center;
     background-color: white;
-    color: lightslategray;
     min-height: 50px;
     max-height: 50px;
-
-}
-
-.topbar_search {
-    background-color: white;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
-    border: 1px solid lightgray;
-}
-
-
-
-.topbar_search input {
-    border: none;
-    outline: none;
-}
-
-.topbar_user {
-    display: flex;
-    align-items: center;
-}
-
-.topbar_user label {
-    padding-left: 10px;
-}
-
-.topbar_user_icon {
-    color: lightgray;
-    font-size: 1.5rem;
-}
-
-.topbar_logo {
+    border-radius: 30px;
+    color: #c3cad9;
     font-size: 1.2rem;
-   font-weight: bold;
-
 }
 
-.Leftbar{
-    min-width: 10vh;
-    padding-left: 5px;
-    background-color: white;
-    padding-top: 10px;
+.List {
+
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 80px;
-    width: 10%;
-    }
+    background-color:red;
+    justify-content: right;
+    padding: 20px 0;
+}
 
-.Leftbar_circle{
+.List_r1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 
-height:40px ;
-width: 40px;
-display: flex;
-align-items: center;
-margin-bottom: 10px;
-margin-left: 5px;
-justify-content: center;
-background-color: white;
-border-radius: 30px;
-color: lightslategray;
+}
+.icon{
+    margin-left: 25%;
 
 }
 
+.List_r1_a {
+
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    justify-content: right;
+    /* align-items: center;  */
+    background-color: blue;
+}
+
+.List_r1_a_circle {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid gray;
+    color: gray;
+    width: 30px;
+    height: 30px;
+}
+
+.List_r1_a_circle label {
+    margin-right: 50%;
+    color: blueviolet;
+}
+.List_r1_a button{
+    color: gray;
+    background-color:white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+
+.List_r1_a_circle_icon {
+    padding-left: 8px;
+}
+.label{
+    color: gray;
+    margin-right: 8%;
+    margin-left :8px;
+}
