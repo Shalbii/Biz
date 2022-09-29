@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-//import Navigation from './Navigation';
+import Navigation from './Navigation';
 //import Login from './components/List';
 //import Array from './Array';
 // import Dgraph from './Dgraph';
 //import Vgraph from './Vgraph';
 //import Hgraph from './Hgraph';
 //import Salesdashboard from './Salesdashboard';
-import Appp from './Appp';
+//import Appp from './Appp';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Appp/>
+    <Navigation/>
   </React.StrictMode>
 );
 

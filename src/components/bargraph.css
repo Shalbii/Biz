@@ -1,108 +1,64 @@
 .bargraph {
+    background-color: #f7f8fa;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
 }
 
-.bargraph_title {
-    display: flex;
-    flex-direction: row;
+.bargraph .icon {
+    padding-left: 30px;
 }
 
 .bargraph_graph ul {
     display: flex;
     flex-direction: row;
-    padding: 0%;
-    margin: 0%;
     list-style-type: none;
-
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
 
 .bargraph_graph li {
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 10px;
-    padding-right: 40%;
-    margin-bottom: 30%;
+    justify-content: flex-end;
 }
 
-
-.bargraph_graph_bluetitle {
-    margin-right: 5%;
+.bargraph_blue_value {
     color: blue;
-    display: flex;
-    flex-direction: column;
-    height: 20vh;
-    margin-bottom: -150%;
-    padding-top: 25px;
-
 }
 
-.bargraph_graph_greentitle {
+.bargraph_green_value {
     color: green;
-    margin-bottom: -150%;
-    padding-top: 100px;
 }
 
-.bargraph_graph_orangetitle {
-    color: orange;
-    margin-bottom: -150%;
-    padding-top: 25px;
+.bargraph_orange_value {
+    color: orangered;
 }
 
-.bargraph_title_1,
-.bargraph_title label {
-    justify-content: space-between;
-
-}
-
-.bargraph_title label {
-    margin-left: 0%;
-    display: flex;
-    flex-direction: column;
-    margin-right: 90%;
-}
-
-.bargraph_title_1 {
-    margin-right: 80%;
-
-}
-
-.bargraph_graph_blue {
-    justify-content: space-between;
-    margin-right: 20%;
-    margin-top: 10px;
-    color: red;
-    height: 25vh;
-    width: 4vh;
+.bargraph_bluegraph {
     background-color: blue;
-
+    height: 140px;
+    width: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.bargraph_graph_green {
-
-    justify-content: space-between;
-    margin-right: 20%;
-    margin-bottom: -90px;
-    color: blue;
-    height: 15vh;
-    width: 4vh;
+.bargraph_greengraph {
     background-color: green;
-
+    height: 100px;
+    width: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-
-.bargraph_graph_orange {
-
-    justify-content: space-between;
-    margin-right: 20%;
-    margin-bottom: -90px;
-    color: green;
-    height: 30vh;
-    width: 4vh;
-    background-color: orange;
-
+.bargraph_orangegraph {
+    background-color: orangered;
+    height: 190px;
+    width: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

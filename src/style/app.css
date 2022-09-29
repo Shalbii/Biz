@@ -30,9 +30,7 @@
     color: gray;
 }
  
-/***************topbar_col1**************/
- 
-/****************topbar_col2*************/
+
 .topbar_col2{
     display: flex;
     align-items: center;
@@ -49,8 +47,7 @@
     padding-right: 20px;
 }
  
-/**************end of col2***********/
-/*************start of col3 ***********/
+
 .topbar_col3{
   background-color: white;
   display: flex;

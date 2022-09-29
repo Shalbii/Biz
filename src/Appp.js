@@ -1,12 +1,12 @@
 import React from "react";
 
-import {  BsBellFill,BsThreeDots } from "react-icons/bs";
+import { BsThreeDots ,BsFillBellFill} from "react-icons/bs";
 import { AiOutlineMenu, } from "react-icons/ai";
 
-import { BiSearch, BiDotsVerticalRounded } from "react-icons/bi";
+import { BiSearch } from "react-icons/bi";
 import { RiArrowRightSLine } from "react-icons/ri";
 
-import { BsMessenger, BsFillStarFill } from "react-icons/bs";
+import { BsMessenger, BsFillStarFill ,BsThreeDotsVertical} from "react-icons/bs";
 import { IoMdCompass } from "react-icons/io";
 
 import "./style/app.css";
@@ -64,50 +64,85 @@ export default function Topbar() {
             </div>
 
 
-
-            <div className="List">
-                <div className="List_r1">
-                    <label>User List</label>
-                    < BiDotsVerticalRounded className="icon" />
-                </div>
-                <Shalby />
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-                <Shalby></Shalby>
-            </div>
-        
-        </>
-    );
-}
-
-
-{/* <div className="List_r1_a">
-                    <div className="List_r1_a_circle">
-                        <BsBellFill className="List_r1_a_circle_icon" />
+            
+            <>
+                <div className="list">
+                    <div className="list_row">
+                        <label>Campign wise Prospect Count</label>
+                        <BsThreeDotsVertical className="icon" />{" "}
                     </div>
-                    <label className="label">Shalby</label>
-                    <button>Pending</button>
-                </div> */}
+                    <div className="list_row">
+                        <div className="list_whitecircle">
+                            <BsFillBellFill />
+                        </div>
+                        <label>Larry Clayton</label>
+                        <div>
+                            <button>Pending</button>
+                        </div>
+                    </div>
+                    <div className="list_row">
+                        <div className="list_whitecircle">
+                            <BsFillBellFill />
+                        </div>
+                        <label>Larry Clayton</label>
 
-function Shalby() {
-    return (
-        <>
-            <div className="List_r1_a">
-                <div className="List_r1_a_circle">
-                    <BsBellFill className="List_r1_a_circle_icon" />
+
+                        <div>
+                            <button>Pending</button>
+                        </div>
+                    </div>
+                    <div className="list_row">
+                        <div className="list_whitecircle">
+                            <BsFillBellFill />
+                        </div>
+                        <label>Larry Clayton</label>
+                        <div>
+                            <button>Pending</button>
+                        </div>
+                    </div>
+                    <div className="list_row">
+                        <div className="list_whitecircle">
+                            <BsFillBellFill />
+                        </div>
+                        <label>Larry Clayton</label>
+                        <div>
+                            <button>Pending</button>
+                        </div>
+                    </div>
+                    <div className="list_row">
+                        <div className="list_whitecircle">
+                            <BsFillBellFill />
+                        </div>
+                        <label>Larry Clayton</label>
+                        <div>
+                            <button>Pending</button>
+                        </div>
+                    </div>
+                    <div className="list_row">
+                        <div className="list_whitecircle">
+                            <BsFillBellFill />
+                        </div>
+                        <label>Larry Clayton</label>
+                        <div>
+                            <button>Pending</button>
+                        </div>
+                    </div>
+                    <div className="list_row">
+                        <div className="list_whitecircle">
+                            <BsFillBellFill />
+                        </div>
+                        <label>Larry Clayton</label>
+                        <div>
+                            <button>Pending</button>
+                        </div>
+                        
+                    </div>
                 </div>
-                <label className="label">Shalby</label>
-                <button>Pending</button>
-            </div>
-        </>
+            </>
+        </> 
     );
+
 }
+
+
+

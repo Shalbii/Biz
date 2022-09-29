@@ -1,0 +1,7 @@
+.TasklistP{
+    display: absolute;
+}
+
+.TasklistP_content{
+display: flex;
+}
