@@ -85,10 +85,10 @@ export default function Signin() {
 
 
 
-    // const handleClose = () => {
-    //  setShow(false);
+// const handleClose = () => {
+//  setShow(false);
 
-
+function Popscreen({show, setShow}) {
     return show ? (
         <div className="modalbox">
             <div className="modal">
@@ -96,9 +96,9 @@ export default function Signin() {
                 {<input type="text" placeholder="Otp" />}
                 {/* <label>{Otp}</label> */}
                 <button  >Resend</button>
-            <button >Verify</button>
+                <button >Verify</button>
             </div>
-            
+
         </div>
     ) : (
 
@@ -107,6 +107,6 @@ export default function Signin() {
     );
     //}
 
-
+}
 
 

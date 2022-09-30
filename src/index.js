@@ -8,13 +8,13 @@ import Navigation from './Navigation';
 //import Hgraph from './Hgraph';
 //import Salesdashboard from './Salesdashboard';
 //import Appp from './Appp';
-
+import Tasklist from './Tasklist';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navigation/>
+    <Tasklist/>
   </React.StrictMode>
 );
 

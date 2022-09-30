@@ -2,16 +2,17 @@ import React from "react";
 import { GiBeachBag } from "react-icons/gi";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { useState } from "react";
+import './addtask.css';
 
 export default function Addtask() {
 
     const [show, setShow] = useState(false);
-    // const handleClick = () => {
-    //     setShow(!show);
+    //  const handleClick = () => {
+    //    setShow(!show);
     // };
     return (
         <>
-            < Popscreen show={show} setShow={setShow} />
+           {/* < Popscreen show={show} setShow={setShow} />  */}
             <div className="AddtaskPage">
                 <div className="r1">
                     <div className="r1_details">
@@ -33,15 +34,16 @@ export default function Addtask() {
                 <div className="r3">
                     <div className="r3_in">
                         <label>Subject</label>
-                        <div className="rectangle"></div>
+                        <div className="rectangle">
+                        </div>
                     </div>
                     <div className="r3_in">
                         <label>Comments</label>
-                        <div className="rectangle"></div>
+                        <div className="rectangle_1"></div>
                     </div>
                     <div className="r3_in">
                         <label>created on</label>
-                        <div className="rectangle"></div>
+                        <div className="rectangle_2"></div>
                     </div>
                 </div>
 
@@ -49,15 +51,15 @@ export default function Addtask() {
                 <div className="r4">
                     <div className="r4_in">
                         <label>Assigned to</label>
-                        <div className="rectangle"></div>
+                        <div className="rectangle_3"></div>
                     </div>
                     <div className="r4_in">
                         <label>Lead email id</label>
-                        <div className="rectangle"></div>
+                        <div className="rectangle_4"></div>
                     </div>
                     <div className="r4_in">
                         <label>Status</label>
-                        <div className="rectangle"></div>
+                        <div className="rectangle_5"></div>
                     </div>
                 </div>
             </div>
@@ -66,11 +68,3 @@ export default function Addtask() {
 }
 
 
-// function Popscreen({ show, setShow }) {
-
-// };
-// return show ? (
-//     <Addtask> </Addtask>
-// ) : (
-//     <></>
-// )
