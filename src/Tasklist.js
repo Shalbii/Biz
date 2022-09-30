@@ -16,15 +16,16 @@ export default function Tasklist() {
                 <div className='TasklistP_content'>
                     {/* <div className='TasklistP_content_topbar'><Topbar /> */}
                         <div className='TasklistP_content_leftbar'><LeftBar />
+                        <div className='TasklistP_content_titlebar'><Titlebar />
                           <div className='TasklistP_content_filterbar'><Filterbar /> 
                                 <div className='TasklistP_content_mainlist'><Mainlist />
-                                    <div className='TasklistP_content_titlebar'><Titlebar />
-                                        <div className='TasklistP_content_form'><Form />
+                                    
+                                        {/* <div className='TasklistP_content_form'><Form /> */}
 
                                         </div>
                                     </div>
                                 {/* </div> */}
-                            </div>
+                            {/* </div> */}
                         </div>
                  </div> 
                 </div>
@@ -34,5 +35,12 @@ export default function Tasklist() {
 }
 
 
-
-
+{/* <div> page</div>
+    <div>Topbar</div>
+    <div>other</div>
+        <div>otherlrft</div>
+            <div>leftbar</div>
+        <div>otherright</div>
+            <div>tsklist</div>
+            <div>filt</div>
+            <div>list</div> */}

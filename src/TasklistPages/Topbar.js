@@ -12,15 +12,15 @@ import './Topbar.css';
 export default function Topbar() {
     return (
         <>
-            <div className="header">
-                <div className="col1">
-                    <div className="icon_circle">
+            <div className="Topbar_header">
+                <div className="Topbar_col1">
+                    <div className="Topbar_icon_circle">
                         <AiOutlineMenu />
 
                     </div><h3>Company</h3>
 
                 </div>
-                <div className="col2">
+                <div className="Topbar_col2">
                     <ul>
                         <li>Dashboard</li>
                         <li>Account</li>
@@ -32,79 +32,79 @@ export default function Topbar() {
                         </li>
                     </ul>
                 </div>
-                <div className="col3">
-                    <AiOutlineSearch className="searchIcon" />
+                <div className="Topbar_col3">
+                    <AiOutlineSearch className="Topbar_searchIcon" />
                     <input type={"text"} placeholder="Search Products,Orders and Clients" />
-                    <MdArrowForwardIos className="arrowIcon" />
+                    <MdArrowForwardIos className="Topbar_arrowIcon" />
                 </div>
-                <div className="col4">
-                    <CgProfile className="profileIcon" />
+                <div className="Topbar_col4">
+                    <CgProfile className="Topbar_profileIcon" />
                     <label>Clayton Santos</label>
                 </div>
-                <div className="col5">
-                    <div className="Bell_Circle">
-                        <BsFillBellFill className="BellIcon" />
+                <div className="Topbar_col5">
+                    <div className="Topbar_Bell_Circle">
+                        <BsFillBellFill className="Topbar_BellIcon" />
                     </div>
-                    <div className="cancel_circle">
-                        <MdCancel className="cancelIcon" />
+                    <div className="Topbar_cancel_circle">
+                        <MdCancel className="Topbar_cancelIcon" />
                     </div>
                 </div>
             </div>
-            <div className="content">
-                <div className="content_cola">
-                    <div className="content_cola_list">
-                        <BsFillBookFill className="bookicon" />
+            <div className="Topbar_content">
+                <div className="Topbar_content_cola">
+                    <div className="Topbar_content_cola_list">
+                        <BsFillBookFill className="Topbar_bookicon" />
                         <label> Leads</label>
                     </div>
-                    <div className="content_cola_list">
-                        <BsFillBookFill className="bookicon" />
+                    <div className="Topbar_content_cola_list">
+                        <BsFillBookFill className="Topbar_bookicon" />
                         <label> Campaign</label>
                     </div>
-                    <div className="content_cola_list">
-                        <BsFillBookFill className="bookicon" />
+                    <div className="Topbar_content_cola_list">
+                        <BsFillBookFill className="Topbar_bookicon" />
                         <label>Tasks</label>
                     </div>
-                    <div className="content_cola_list">
-                        <BsFillBookFill className="bookicon" />
+                    <div className="Topbar_content_cola_list">
+                        <BsFillBookFill className="Topbar_bookicon" />
                         <label>Prospects</label>
                     </div>
-                    <div className="content_cola_list1"></div>
-                    <div className="content_cola_list1"></div>
-                    <div className="content_cola_list1"></div>
-                    <div className="content_cola_list1"></div>
-                    <div className="content_cola_list1"></div>
+                    <div className="Topbar_content_cola_list1"></div>
+                    <div className="Topbar_content_cola_list1"></div>
+                    <div className="Topbar_content_cola_list1"></div>
+                    <div className="Topbar_content_cola_list1"></div>
+                    <div className="Topbar_content_cola_list1"></div>
                 </div>
-                <div className="content_colb">
-                    <label className="label_head">Leads</label>
-                    <div className="content_colb_list">
-                        <div className="content_colb_list1">
-                            <BsFillBookFill className="bookicon" />
+                <div className="Topbar_content_colb">
+                    <label className="Topbar_label_head">Leads</label>
+                    <div className="Topbar_content_colb_list">
+                        <div className="Topbar_content_colb_list1">
+                            <BsFillBookFill className="Topbar_bookicon" />
                             <label>List Leads</label>
                         </div>
-                        <div className="content_colb_list1">
-                            <BsFillBookFill className="bookicon" />
+                        <div className="Topbar_content_colb_list1">
+                            <BsFillBookFill className="Topbar_bookicon" />
                             <label>Create Lead</label>
                         </div>
                     </div>
                 </div>
-                <div className="content_colc">
-                    <label className="label_head">Campaign</label>
-                    <div className="content_colb_list">
-                        <div className="content_colb_list1">
-                            <BsFillBookFill className="bookicon" />
+                <div className="Topbar_content_colc">
+                    <label className="Topbar_label_head">Campaign</label>
+                    <div className="Topbar_content_colb_list">
+                        <div className="Topbar_content_colb_list1">
+                            <BsFillBookFill className="Topbar_bookicon" />
                             <label>List Campaign</label>
                         </div>
-                        <div className="content_colb_list1">
-                            <BsFillBookFill className="bookicon" />
+                        <div className="Topbar_content_colb_list1">
+                            <BsFillBookFill className="Topbar_bookicon" />
                             <label>Create Campaign</label>
                         </div>
                     </div>
                 </div>
-                <div className="content_cold">
-                    <label className="label_head">Prospect</label>
-                    <div className="content_colb_list">
-                        <div className="content_colb_list1">
-                            <BsFillBookFill className="bookicon" />
+                <div className="Topbar_content_cold">
+                    <label className="Topbar_label_head">Prospect</label>
+                    <div className="Topbar_content_colb_list">
+                        <div className="Topbar_content_colb_list1">
+                            <BsFillBookFill className="Topbar_bookicon" />
                             <label>List Prospect</label>
                         </div>
 

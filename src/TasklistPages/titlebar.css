@@ -66,3 +66,66 @@ body{
     color: rgb(113, 183, 183);
     font-weight: 100;
 }
+.AddtaskPage{
+    display: flex;
+    padding: 40px;
+    position: absolute;
+   background-color: aqua;
+}
+.r1{
+padding: 10px 0px;
+    align-items: center;
+}
+.r1 label {
+    color: rgb(55, 55, 55);
+    justify-content: space-between;
+  }
+
+  .r1_details{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .r1_details button{
+color: white;
+background-color: #8833FF;
+border-radius: 15px;
+  }
+
+  .rectangle {
+    background-color: white;
+    height: 30px;
+    width: 10px;
+  }
+
+  .r2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+  .r3{
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    
+  }
+  .r3_in,.r4_in{
+margin-bottom: 10px;
+margin-left: 10%;
+
+  }
+
+  .r4{
+    padding: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+}
+  
+  .r2{
+    margin-bottom: 20%;
+  }

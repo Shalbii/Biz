@@ -84,7 +84,7 @@ export default function Signin() {
 
 
 
-function Popscreen({ show, setShow }) {
+
     // const handleClose = () => {
     //  setShow(false);
 
@@ -109,4 +109,4 @@ function Popscreen({ show, setShow }) {
 
 
 
-}
+
